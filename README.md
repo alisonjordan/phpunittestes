@@ -17,3 +17,9 @@ Desafio 3: escreva um teste para verificar se as regras na função round2 estã
 Desafio 4: Escreva um teste para verificar se as somas das pontuações estão retornando valores adequados. (Fique a vontade para refatorar o código se for preciso)
 Desafio 5: Utilize fixtures (setUP(), tearDown(), setUpBeforeClass(), tearDownAfterClass()) para inicializar e finalizar as dependencias dos testes adequadamente
 Desafio 5: Escreva funções para geração de dados para os seus testes.
+
+
+Referências:
+
+Livro: "C++ como programar"
+Autores: H. M. Deitel e P. J. Deitel
