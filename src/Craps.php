@@ -11,7 +11,7 @@ class Craps{
     private int $soma2;
     private statusGanhador $statusGanhador;
 
-    public function __construct()
+    public function __construct() 
     {
         $this->dado1 = new Dado();
         $this->dado2 = new Dado();
@@ -89,6 +89,8 @@ class Craps{
         }
     }
 
+    
+
     public function round1()
     {
         if($this->soma1 == 7 or $this->soma1 == 11)
@@ -120,6 +122,21 @@ class Craps{
         {
             $this->statusGanhador = statusGanhador::CONTINUE;
         }
+    }
+
+
+    public function getSoma1() : int
+    {
+        return $this->soma1 = $this->dado1->getFaceSorteada() + $this->dado2->getFaceSorteada();
+        
+       
+    }
+
+    public function getSoma2() : int
+    {
+        return $this->soma2 = $this->dado1->getFaceSorteada() + $this->dado2->getFaceSorteada();
+        
+       
     }
 
 }
